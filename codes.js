@@ -4,7 +4,7 @@ function addBlock() {
         return;
     }
 
-    // VC
+    // ここも増やす
     window.Blockly.Blocks['example'] = {
         init: function() {
             this.appendDummyInput().appendField("サンプル"); this.setPreviousStatement(true, null); this.setNextStatement(true, null); this.setColour(160);
